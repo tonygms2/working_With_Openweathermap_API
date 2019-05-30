@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
+body{
+    margin: 0;
+    background-color: #3F51B5;
+}
+.icon{
+        font-size: 2em;
+      
+}
+#inputHeader{
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 45px;
+    color:#FFFFFF;
+}
+.mainWeather{
+    text-align: center;
+}
+.icon{
+    size: 100px;
+}
+#w{
+    font-family:  'Pacifico', cursive;
+    font-size: 50px;
+    font-style: bold;    
+    color: #FFFFFF;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    
+}
+#w:hover{
+    color: rgb(8, 230, 250);
+}
+
+#t{
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    font-style: bold;
+    color: #FFFFFF;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    
+}
+#t:hover{
+    color: rgb(255, 114, 89);
+}
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+  .tony {
+    -moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+    -webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    background-color:transparent;
+    -moz-border-radius:17px;
+    -webkit-border-radius:17px;
+    border-radius:17px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 13px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+  }
+  .tony:hover {
+    background-color:transparent;
+  }
+  .tony:active {
+    position:relative;
+    top:1px;
+  }
+  
